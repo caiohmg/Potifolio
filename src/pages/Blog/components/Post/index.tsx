@@ -1,3 +1,4 @@
+import { Card } from 'react-bootstrap';
 import { PostContainer } from './styles';
 
 interface IPost {
@@ -10,7 +11,7 @@ interface IPost {
 export function Post({ title, body, url, backgroundImage }: IPost) {
   return (
     <PostContainer to={url} backgroundImage={backgroundImage} target="_blank">
-      
+         
     </PostContainer>
     
     

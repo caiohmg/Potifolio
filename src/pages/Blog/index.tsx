@@ -10,7 +10,6 @@ import Cronometro from "../../assets/Cronometro-de-tarefas.png";
 import CoffeDelivery from "../../assets/coffe-delivery.png";
 import CalendarioCopa from "../../assets/CalendarioDaCopa.png";
 
-
 const username = "caiohmg";
 const repoName = "Github";
 
@@ -94,7 +93,10 @@ export function Blog() {
           body=""
           url="https://effulgent-gelato-945b73.netlify.app/"
           backgroundImage={CalendarioCopa}
-        />
+          />
+          
+        
+         
          
             
            
