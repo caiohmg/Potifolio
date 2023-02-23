@@ -24,18 +24,7 @@ export function PostHeader() {
         <ExternalLink text="Ver no Github" href="https://github.com/caiohmg/calendario-da-copa" target="_blank" />
       </header>
 
-      <h1>Relógio</h1>
-
-      <ul>
-        <li>
-          <FontAwesomeIcon icon={faGithub} />
-          caiohmg
-        </li>
-        <li>
-          <FontAwesomeIcon icon={faCalendar} />
-          Há 1 dia
-        </li>
-      </ul>
+    
     </PostHeaderContainer>
   );
 }

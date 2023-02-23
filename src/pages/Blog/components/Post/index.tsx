@@ -10,12 +10,10 @@ interface IPost {
 export function Post({ title, body, url, backgroundImage }: IPost) {
   return (
     <PostContainer to={url} backgroundImage={backgroundImage} target="_blank">
-      <div>
-        <strong>{title}</strong>
-        
-      </div>
-      <p>{body}</p>
+      
     </PostContainer>
+    
+    
   );
 }
 
