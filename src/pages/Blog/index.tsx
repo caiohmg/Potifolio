@@ -8,6 +8,7 @@ import fotoBlog from "../../assets/foto-blog.png";
 import DtMoney from "../../assets/DT-money.png";
 import Cronometro from "../../assets/Cronometro-de-tarefas.png"
 import CoffeDelivery from "../../assets/coffe-delivery.png"
+import CalendarioCopa from "../../assets/CalendarioDaCopa.png"
 
 const username = "caiohmg";
 const repoName = "Github";
@@ -86,6 +87,13 @@ export function Blog() {
           body=""
           url="https://prismatic-sawine-dbf9d4.netlify.app/"
           backgroundImage={CoffeDelivery}
+          
+        />
+          <Post
+          title=""
+          body=""
+          url="https://effulgent-gelato-945b73.netlify.app/"
+          backgroundImage={CalendarioCopa}
           
         />
       </PostsListContainer>
