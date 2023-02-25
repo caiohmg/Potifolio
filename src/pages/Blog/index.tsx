@@ -4,10 +4,10 @@ import { Post } from "./components/Post";
 import { Profile } from "./components/Profile";
 import { SearchInput } from "./components/Searchinput";
 import { PostsListContainer } from "./styles";
-import fotoBlog from "../../assets/foto-blog.png";
+import fotoBlog from "../../assets/blog.svg";
 import DtMoney from "../../assets/DT-money.png";
-import Cronometro from "../../assets/Cronometro-de-tarefas.png";
-import CoffeDelivery from "../../assets/coffe-delivery.png";
+import Cronometro from "../../assets/cronometro.svg";
+import CoffeDelivery from "../../assets/coffeDelivery.svg";
 import CalendarioCopa from "../../assets/CalendarioDaCopa.png";
 
 const username = "caiohmg";
